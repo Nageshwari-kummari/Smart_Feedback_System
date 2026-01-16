@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    font-family:"Segoe UI",sans-serif;
+}
+.card{
+    background:white;
+    padding:30px;
+    width:330px;
+    border-radius:15px;
+    text-align:center;
+}
+input,button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
+a{color:#667eea;text-decoration:none;}
+</style>
+</head>
+<body>
+<div class="card">
+<h2>Register</h2>
+<form method="post">
+<input type="email" name="email" placeholder="Email" required>
+<input type="password" name="password" placeholder="Password" required>
+<button>Register</button>
+</form>
+<p>Already registered? <a href="/login">Login</a></p>
+</div>
+</body>
+</html>
